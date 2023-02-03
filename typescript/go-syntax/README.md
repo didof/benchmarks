@@ -1,10 +1,10 @@
-# Go-like return type is nice and fast
+# The go-like return type is nice and fast
 
 > **Disclaimer!**
 >
 > I am not a professional benchmarker. If there is any error in my logic, please let me know via [mail](mailto:didonato.fr@gmail.com) or [twitter](https://twitter.com/did0f).
 
-During a relaxed Friday evening consisting of lo-fi, chill and code I found myself wanting to bring the syntax of go into typescript.
+During a relaxed Friday evening consisting of lo-fi, chill, and code I found myself wanting to bring the syntax of go into typescript.
 
 I refer to this:
 
@@ -49,7 +49,7 @@ const [v, err] = do()
 
 ## Benchmark
 
-On my machine the *go-syntax* seems to be much more fast than the *try-catch & throw* one.
+On my machine, the *go-syntax* seems to be much more fast than the *try-catch & throw* one.
 
 Try it out yourself:
 
