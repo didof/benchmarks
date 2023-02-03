@@ -15,7 +15,7 @@ class BenchmarkReport {
     }
 
     compare(ns: number) {
-        return Math.log10(ns) - Math.log10(this.ns)
+        return Math.log10(this.ns) - Math.log10(ns)
     }
 }
 

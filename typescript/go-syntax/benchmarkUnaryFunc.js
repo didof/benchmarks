@@ -21,7 +21,7 @@ var BenchmarkReport = /** @class */ (function () {
         configurable: true
     });
     BenchmarkReport.prototype.compare = function (ns) {
-        return Math.log10(ns) - Math.log10(this.ns);
+        return Math.log10(this.ns) - Math.log10(ns);
     };
     return BenchmarkReport;
 }());
