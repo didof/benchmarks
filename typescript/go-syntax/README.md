@@ -1,4 +1,4 @@
-# The go-like return type is nice and fast
+# The go-like Return Style is Nice and Fast
 
 > **Disclaimer!**
 >
